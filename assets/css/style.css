@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -425,7 +425,7 @@ section {
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 12px;
   background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
@@ -953,4 +953,23 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.skills-list li {
+  display: inline-block;
+  background: #f0f0f0;
+  color: #333;
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.skills-list li:hover {
+  background: #007bff;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }

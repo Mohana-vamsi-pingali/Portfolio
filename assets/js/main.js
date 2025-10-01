@@ -163,6 +163,8 @@
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
+    let ageContainer = document.querySelector('#age');
+    ageContainer.innerHTML = new Date().getFullYear() - 2001;
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item'
